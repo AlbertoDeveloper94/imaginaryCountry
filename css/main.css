@@ -295,7 +295,7 @@ td:first-child {
 footer p {
   text-align: center;
 }
-@media (max-width: 1400px) and (min-width: 600px) {
+@media (max-width: 1400px) and (min-width: 768px) {
   section:not(.heroBanner),
   footer {
     width: 90%;
@@ -318,7 +318,7 @@ footer p {
     flex-basis: 100%;
   }
 }
-@media (max-width: 600px) and (min-width: 400px) {
+@media (max-width: 768px) and (min-width: 400px) {
   section:not(.heroBanner),
   footer {
     width: 90%;
