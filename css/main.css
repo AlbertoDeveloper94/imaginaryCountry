@@ -113,3 +113,27 @@ footer nav {
 .headerMenuIdentity nav ul li a:hover:after {
   width: 100%;
 }
+/* Hero Banner Styles */
+.heroBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/projectImages/apocalipsisBanner.jpg");
+  background-size: cover;
+  gap: 20px;
+}
+.heroBanner p {
+  font-size: 2rem;
+  opacity: 0.5;
+}
+#ctaButton {
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: var(--colorHighlightedPrimary);
+  box-shadow: 0 4px 10px 1px black;
+  transition: all 1s;
+}
