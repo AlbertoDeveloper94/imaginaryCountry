@@ -33,7 +33,10 @@ h2 {
 }
 h3 {
   color: var(--colorHighlightedPrimary);
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.4rem;
 }
 p {
   font-family: var(--fontFamilySecondary);
@@ -43,8 +46,15 @@ p {
 a {
   font-size: 1.5rem;
 }
+strong {
+  color: var(--colorHighlightedPrimary);
+}
 section {
   scroll-margin-top: 105px;
+}
+section div p {
+  width: 800px;
+  margin: 0 auto;
 }
 section h2:not(footer h2) {
   margin-top: 100px;
@@ -54,7 +64,8 @@ footer section:nth-child(1),
 footer section:nth-child(3) {
   margin: 50px 0 0 0;
 }
-h2:not(footer h2) {
+h2:not(footer h2),
+h3 {
   border-bottom: 4px solid var(--backgroundSecondary);
   text-align: center;
 }
@@ -67,7 +78,7 @@ footer nav {
 }
 .sectionBasicStyle {
   margin-top: 50px;
-  padding: 40px;
+  padding: 50px;
   background-color: var(--backgroundSecondary);
 }
 
@@ -142,4 +153,52 @@ footer nav {
 #ctaButton:hover {
   border: 2px solid;
   background-color: var(--colorHighlightedSecondary);
+}
+/* Description section styles */
+#description div p:not(p:last-child) {
+  margin: 0 auto 30px;
+}
+/* History section styles */
+#history .sectionBasicStyle:nth-of-type(2) ol li:nth-child(2) {
+  margin: 50px 0;
+}
+#history .sectionBasicStyle:nth-of-type(2) div div {
+  display: flex;
+  justify-content: center;
+}
+#history .sectionBasicStyle:nth-of-type(2) ol li div p {
+  text-align: center;
+}
+
+.iconsHistory {
+  padding-left: 50px;
+  position: relative;
+}
+
+#iconFirstSubsectionHistory:before {
+  content: "💣";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+#iconSecondSubsectionHistory:before {
+  content: "🏰";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+#iconThirdSubsectionHistory:before {
+  content: "👨‍👧‍👧";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  font-size: 1.5rem;
+  line-height: 1;
 }
