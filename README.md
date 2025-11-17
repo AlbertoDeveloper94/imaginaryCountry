@@ -21,6 +21,7 @@ Entra en [pandorium] (https://albertodeveloper94.github.io/imaginaryCountry/) pa
 - Git
 
 ## Estructura del proyecto
+
 ## 📁 Estructura del Proyecto
 
 ```text
@@ -39,6 +40,7 @@ Pandorium/
     └── readmeImages/           # Imágenes usadas en el README.md
         ├── html5Logo.png
         └── css3Logo.png
+```
 
 ## ✒️Autor✒️
 
