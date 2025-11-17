@@ -1,0 +1,14 @@
+:root {
+  --colorPrimary: #e0d9d2;
+  --colorHighlightedPrimary: #e67d22;
+  --colorHighlightedSecondary: #f39c12;
+  --colorExtremeDanger: #e74c3c;
+  --colorHighDanger: #e67d22;
+  --colorModerateDanger: #f39c12;
+
+  --backgroundPrimary: #1f140e;
+  --backgroundSecondary: #3b281f;
+
+  --fontFamilyPrimary: "Arial", sans-serif;
+  --fontFamilySecondary: "Georgia", serif;
+}
