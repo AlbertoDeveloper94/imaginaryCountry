@@ -137,3 +137,7 @@ footer nav {
   box-shadow: 0 4px 10px 1px black;
   transition: all 1s;
 }
+#ctaButton:hover {
+  border: 2px solid;
+  background-color: var(--colorHighlightedSecondary);
+}
