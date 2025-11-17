@@ -21,21 +21,7 @@ Entra en [pandorium] (https://albertodeveloper94.github.io/imaginaryCountry/) pa
 - Git
 
 ## Estructura del proyecto
-Pandorium/
-├── index.html                  # Página principal (Home) del proyecto.
-├── README.md                   # Documentación y descripción del proyecto.
-├── css/                        # Contiene las Hojas de Estilo CSS
-│   ├── main.css                # Estilos principales de la web.
-│   └── reset.css               # Estilos para normalizar navegadores.
-├── images/                     # Contiene todos los recursos gráficos
-│   ├── projectImages/          # Imágenes usadas en index.html
-│   │   ├── logoPandorium.svg   # Logo y Favicon.
-│   │   ├── artImagePandorium.jpg
-│   │   ├── pandoriumMapImage.jpg
-│   │   └── mapPandoriumBorders.png
-│   └── readmeImages/           # Imágenes usadas en el README.md
-│       ├── html5Logo.png
-│       └── css3Logo.png
+(images/readmeImages/structureProject.png)
 
 ## ✒️Autor✒️
 
