@@ -60,7 +60,7 @@ section {
 }
 section:not(.heroBanner),
 footer {
-  width: 1300px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 section h2,
@@ -228,7 +228,7 @@ footer nav {
 }
 
 #flexHistorySocialClases div {
-  flex-basis: calc(33.333% - 20px);
+  flex-basis: calc(33.333%);
 }
 #flexHistorySocialClases div h4 {
   color: var(--colorHighlightedPrimary);
@@ -294,4 +294,102 @@ td:first-child {
 /* Footer styles */
 footer p {
   text-align: center;
+}
+@media (max-width: 1400px) and (min-width: 600px) {
+  section:not(.heroBanner),
+  footer {
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+  #economy > div {
+    flex-direction: column;
+  }
+  #flexHistorySocialClases {
+    flex-wrap: wrap;
+  }
+  #flexHistorySocialClases div:nth-child(1),
+  #flexHistorySocialClases div:nth-child(2) {
+    flex-basis: 48%;
+    justify-content: center;
+  }
+  #flexHistorySocialClases div:nth-child(3) {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 600px) and (min-width: 400px) {
+  section:not(.heroBanner),
+  footer {
+    width: 90%;
+    margin: auto;
+    padding: 0 15px;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  p,
+  a {
+    font-size: 1.2rem;
+    line-height: 1.4;
+  }
+
+  .headerMenuIdentity {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .headerMenuIdentity nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .headerMenuIdentity nav li {
+    width: 50%;
+  }
+
+  .heroBanner h1 {
+    font-size: 2rem;
+    padding: 0 20px;
+  }
+  .heroBanner p {
+    font-size: 1.5rem;
+  }
+  .heroBanner h1,
+  .heroBanner p {
+    text-align: center;
+  }
+  #ctaButton {
+    font-size: 1.3rem;
+  }
+
+  #flexHistorySocialClases,
+  #economy > div {
+    flex-direction: column;
+  }
+  #flexHistorySocialClases div,
+  #economy .sectionBasicStyle {
+    width: 100%;
+  }
+
+  #flexCultureSection,
+  #flexGeographySection {
+    grid-template-columns: 1fr;
+  }
+
+  #flexCultureSection figure,
+  #flexCultureSection .sectionBasicStyle:nth-of-type(3),
+  #flexGeographySection div {
+    grid-column: 1 / 2;
+  }
+
+  table {
+    width: 100%;
+  }
 }
