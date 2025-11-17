@@ -296,6 +296,11 @@ footer p {
   text-align: center;
 }
 @media (max-width: 1400px) and (min-width: 768px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow: hidden;
+  }
   section:not(.heroBanner),
   footer {
     width: 90%;
