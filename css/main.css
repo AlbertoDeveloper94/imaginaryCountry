@@ -93,3 +93,23 @@ footer nav {
 .headerMenuIdentity nav ul li {
   padding: 10px;
 }
+/* Header states styles */
+.headerMenuIdentity nav ul li a {
+  position: relative;
+}
+.headerMenuIdentity nav ul li a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width 0.5s;
+  background-color: var(--colorHighlightedSecondary);
+}
+.headerMenuIdentity nav ul li a:hover {
+  color: var(--colorHighlightedSecondary);
+}
+.headerMenuIdentity nav ul li a:hover:after {
+  width: 100%;
+}
