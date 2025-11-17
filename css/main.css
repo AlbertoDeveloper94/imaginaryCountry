@@ -296,10 +296,9 @@ footer p {
   text-align: center;
 }
 @media (max-width: 1400px) and (min-width: 768px) {
-  html,
   body {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   section:not(.heroBanner),
   footer {
@@ -308,6 +307,10 @@ footer p {
     padding: 0 15px;
   }
 
+  #flexHistorySocialClases div,
+  #economy .sectionBasicStyle {
+    width: 100%;
+  }
   #economy > div {
     flex-direction: column;
   }
@@ -324,16 +327,13 @@ footer p {
   }
 }
 @media (max-width: 768px) and (min-width: 350px) {
-  body {
-    max-width: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
   }
-  section:not(.heroBanner),
-  footer {
-    width: 90%;
-    margin: auto;
-    padding: 0 15px;
+  .sectionBasicStyle {
+    padding: 30px;
   }
   h1 {
     font-size: 2.2rem;
@@ -366,7 +366,6 @@ footer p {
 
   .heroBanner h1 {
     font-size: 2rem;
-    padding: 0 20px;
   }
   .heroBanner p {
     font-size: 1.5rem;
@@ -391,6 +390,7 @@ footer p {
   #flexCultureSection,
   #flexGeographySection {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 
   #flexCultureSection figure,
