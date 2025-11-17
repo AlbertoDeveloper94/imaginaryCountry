@@ -1,3 +1,4 @@
+/* Variables CSS */
 :root {
   --colorPrimary: #e0d9d2;
   --colorHighlightedPrimary: #e67d22;
@@ -11,4 +12,59 @@
 
   --fontFamilyPrimary: "Arial", sans-serif;
   --fontFamilySecondary: "Georgia", serif;
+}
+
+/* Estilos Generales */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 80%;
+  margin: 0 auto;
+  color: var(--colorPrimary);
+  background-color: var(--backgroundPrimary);
+  font-family: var(--fontFamilyPrimary);
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  color: var(--colorHighlightedPrimary);
+  font-size: 1.3rem;
+}
+p {
+  font-family: var(--fontFamilySecondary);
+  font-size: 1.5rem;
+}
+a {
+  font-size: 1.5rem;
+}
+section {
+  scroll-margin-top: 105px;
+}
+section h2:not(footer h2) {
+  margin-top: 100px;
+  padding: 20px;
+}
+footer section:nth-child(1),
+footer section:nth-child(3) {
+  margin: 50px 0 0 0;
+}
+header,
+h2:not(footer h2) {
+  border-bottom: 4px solid var(--backgroundSecondary);
+}
+footer section:nth-child(3) {
+  border-top: 4px solid var(--backgroundSecondary);
+}
+footer section,
+footer nav {
+  padding: 40px;
+}
+.sectionBasicStyle {
+  padding: 40px;
+  background-color: var(--backgroundSecondary);
 }
