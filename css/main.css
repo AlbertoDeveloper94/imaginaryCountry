@@ -324,10 +324,10 @@ footer p {
   }
 }
 @media (max-width: 768px) and (min-width: 350px) {
-  html,
   body {
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   section:not(.heroBanner),
   footer {
