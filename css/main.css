@@ -14,7 +14,7 @@
   --fontFamilySecondary: "Georgia", serif;
 }
 
-/* Estilos Generales */
+/* General Styles*/
 html {
   scroll-behavior: smooth;
 }
@@ -67,4 +67,29 @@ footer nav {
 .sectionBasicStyle {
   padding: 40px;
   background-color: var(--backgroundSecondary);
+}
+
+/* Header Styles */
+.headerMenuIdentity {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 130px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: black;
+}
+.headerMenuIdentity div a {
+  margin: 0 10px;
+}
+.headerMenuIdentity nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.headerMenuIdentity nav ul li {
+  padding: 10px;
 }
