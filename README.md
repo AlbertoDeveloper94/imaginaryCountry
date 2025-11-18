@@ -3,9 +3,17 @@
 <img src="images/readmeImages/html5Logo.png" alt="Logo de HTML5">
 <img src="images/readmeImages/css3Logo.png" alt="Logo de CSS3">
 
+## 🎞 Captura de Pantalla 🎞
+
+[<img src="images/readmeImages/screenshotImaginaryCountryThumb.png" width="100%"/>](images/readmeImages/screenshotImaginaryCountryFull.png)
+
 ## 🔴 Demo en Vivo 🔴
 
 Entra en [pandorium] (https://albertodeveloper94.github.io/imaginaryCountry/) para ver el proyecto.
+
+## 📖 Descripción 📖
+
+Pandorium, es un proyecto hecho con HTML5 y CSS3 para el Bootcamp Factoria F5. La página web se basa en dar información acerca de una ciudad inventada postapocalíptica, dónde la población lucha por la supervivencia adaptándose a la situación frente a las adversidades.
 
 ## 🌟Características🌟
 
